@@ -1,0 +1,15 @@
+PyFileSystem submission package
+
+1. Install Python 3.11+ on Windows.
+2. Open PowerShell in this folder.
+3. Run:
+   py -3 -m venv .venv
+   .\.venv\Scripts\Activate.ps1
+   python -m pip install -r requirements.txt
+   python main.py
+4. Run tests:
+   python -m pip install pytest
+   python -m pytest -q
+
+Simulation works without Linux. The Actual Linux File System page requires Ubuntu WSL2.
+Read README.md carefully for WSL worker setup and safety boundaries.

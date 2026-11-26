@@ -1,0 +1,3 @@
+# Core application uses only Python standard library.
+# Optional charting:
+matplotlib>=3.8
